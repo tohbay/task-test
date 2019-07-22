@@ -1,0 +1,3 @@
+repo_token: COVERALLS_REPO_TOKEN
+exclude_patterns:
+  - 'src/test/'

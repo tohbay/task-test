@@ -1,0 +1,19 @@
+{
+  "name": "ErrorSwag",
+  "description": "A platform for technical writers and readers to share their thought and craft",
+  "env": {
+    "NODE_ENV": "review",
+    "JWT_SECRET": {
+      "required": true
+    },
+    "addons": [
+      {
+        "plan": "heroku-postgresql",
+        "as": "DATABASE_URL",
+        "options": {
+          "version": "9.5"
+        }
+      }
+    ]
+  }
+}
